@@ -1,0 +1,129 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    left: 50px;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #243f60;
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(217, 238, 207, 0.3);
+}
+
+#question-container {
+    margin: 20px;
+    display: none;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding: 20px;
+    background-color: #f4a63f;
+    border: 2px solid #333;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(217, 238, 207, 0.3);
+
+}
+
+#counters,
+#best,
+#timerDisplay {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    background-color: #f4a63f;
+    border: 2px solid #333;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(217, 238, 207, 0.3);
+}
+
+
+#gameStart {
+    top: 200px;
+    right: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    background-color: #3fb5fe;
+    border: 2px solid #333;
+    border-radius: 10px;
+    width: 100px;
+    box-shadow: 2px 2px 5px rgba(217, 238, 207, 0.3);
+    cursor: pointer;
+}
+
+#gameStart:hover {
+    background-color: #68c1f2;
+    border-color: #000;
+    color: #fa3b55;
+    box-shadow: #715df1;
+}
+
+#nextButton {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#finishButton {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#help {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#nextButton:hover {
+    background-color: #68c1f2;
+    border-color: #000;
+    color: #fa3b55;
+    box-shadow: #715df1;
+}
+
+#finishButton:hover {
+    background-color: #68c1f2;
+    border-color: #000;
+    color: #fa3b55;
+    box-shadow: #715df1;
+}
+
+#help:hover {
+    background-color: #68c1f2;
+    border-color: #000;
+    color: #fa3b55;
+    box-shadow: #715df1;
+}
